@@ -1,0 +1,12 @@
+{
+  "angular": "https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/RULENAME.md",
+  "ava": "https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/RULENAME.md",
+  "import": "https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/RULENAME.md",
+  "import-order": "https://github.com/jfmengels/eslint-plugin-import-order/blob/master/docs/rules/RULENAME.md",
+  "jasmine": "https://github.com/tlvince/eslint-plugin-jasmine/blob/master/docs/rules/RULENAME.md",
+  "jsx-a11y": "https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/RULENAME.md",
+  "lodash": "https://github.com/wix/eslint-plugin-lodash/blob/master/docs/rules/RULENAME.md",
+  "mocha": "https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/RULENAME.md",
+  "promise": "https://github.com/xjamundx/eslint-plugin-promise#RULENAME",
+  "react": "https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/RULENAME.md"
+}

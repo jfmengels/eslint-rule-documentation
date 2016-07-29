@@ -1,10 +1,32 @@
 'use strict';
-module.exports = function (str, opts) {
-  if (typeof str !== 'string') {
-    throw new TypeError('Expected a string');
+
+var plugins = require('./plugins.json');
+
+function getRuleURI(ruleId) {
+  var ruleParts = ruleId.split('/');
+
+  if (ruleParts.length === 1) {
+    return {
+      found: true,
+      url: 'http://eslint.org/docs/rules/' + ruleId
+    };
   }
 
-  opts = opts || {};
+  var pluginName = ruleParts[0];
+  var ruleName = ruleParts[1];
+  var url = plugins[pluginName];
 
-  return str + ' & ' + (opts.postfix || 'rainbows');
-};
+  if (!url) {
+    return {
+      found: false,
+      url: 'https://github.com/jfmengels/eslint-rule-documentation/wiki/Linking-to-Rule-Documentation'
+    };
+  }
+
+  return {
+    found: true,
+    url: url.replace('RULENAME', ruleName)
+  };
+}
+
+module.exports = getRuleURI;
