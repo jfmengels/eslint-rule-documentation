@@ -19,7 +19,7 @@ function getRuleURI(ruleId) {
   if (!url) {
     return {
       found: false,
-      url: 'https://github.com/jfmengels/eslint-rule-documentation/wiki/Linking-to-Rule-Documentation'
+      url: 'https://github.com/jfmengels/eslint-rule-documentation/blob/master/contributing.md'
     };
   }
 

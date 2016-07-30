@@ -69,6 +69,6 @@ test('should return url to help improve this tool', t => {
   t.deepEqual(getRuleURI('unknown-foo/bar'),
     {
       found: false,
-      url: 'https://github.com/jfmengels/eslint-rule-documentation/wiki/Linking-to-Rule-Documentation'
+      url: 'https://github.com/jfmengels/eslint-rule-documentation/blob/master/contributing.md'
     });
 });

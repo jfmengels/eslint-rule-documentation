@@ -1,7 +1,7 @@
 {
   "name": "eslint-rule-documentation",
   "version": "0.0.0",
-  "description": "Find the url for the documentation of an ESLint core or plugin rule",
+  "description": "Find the url for the documentation of an ESLint rule",
   "license": "MIT",
   "repository": "jfmengels/eslint-rule-documentation",
   "author": {
