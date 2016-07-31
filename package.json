@@ -16,14 +16,19 @@
     "test": "xo && ava"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "plugins.json"
   ],
   "keywords": [
-    "jscodeshift",
-    "ava",
-    "wrapper",
-    "test",
-    "tester"
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "plugin",
+    "plugins",
+    "rule",
+    "rules",
+    "doc",
+    "documentation"
   ],
   "devDependencies": {
     "ava": "^0.15.2",
