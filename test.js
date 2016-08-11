@@ -53,6 +53,11 @@ test('should return url of found plugin rules', t => {
       found: true,
       url: 'https://github.com/xjamundx/eslint-plugin-promise#catch-or-return'
     });
+  t.deepEqual(getRuleURI('standard/array-bracket-even-spacing'),
+    {
+      found: true,
+      url: 'https://github.com/xjamundx/eslint-plugin-standard#rules-explanations'
+    });
 });
 
 test.cb('should be able to parse `plugin.json`', t => {
