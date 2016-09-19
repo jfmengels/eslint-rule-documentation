@@ -1,6 +1,6 @@
 # Add support for a new plugin
 
-You may have arrived here after clicking on a rule name from a linting error message or a different tool. If so, you may have expected to find the documentation of a rule. Unfortunately, it is likely that the rule originated from an eslint plugin that is unknown to this tool.
+You may have arrived here after clicking on a rule name from a linting error message or a different tool. If so, you may have expected to find the documentation of a rule. Unfortunately, it is likely that the rule originated from an ESLint plugin that is unknown to this tool.
 
 In order to improve the tool you were using and improve others, your help would be very valuable.
 
