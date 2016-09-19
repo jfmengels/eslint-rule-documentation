@@ -18,6 +18,7 @@
   "promise": "https://github.com/xjamundx/eslint-plugin-promise#RULENAME",
   "react": "https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/RULENAME.md",
   "react-native": "https://github.com/Intellicode/eslint-plugin-react-native/blob/master/docs/rules/RULENAME.md",
+  "requirejs": "https://github.com/cvisco/eslint-plugin-requirejs/blob/master/docs/rules/RULENAME.md",
   "standard": "https://github.com/xjamundx/eslint-plugin-standard#rules-explanations",
   "xo": "https://github.com/sindresorhus/eslint-plugin-xo/blob/master/docs/rules/RULENAME.md"
 }
