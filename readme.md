@@ -30,7 +30,7 @@ getRuleURI('unknown-foo/bar');
 
 ## Contributing
 
-If you find a plugin that you use is not in the, please consider adding it to the project by following the instructions [here](https://github.com/jfmengels/eslint-rule-documentation/blob/master/contributing.md).
+If you find a plugin that you use is not in the [list of supported plugins](./plugins.json), please consider adding it to the project by following the instructions [here](./contributing.md).
 
 
 ## API
@@ -61,7 +61,7 @@ Type: `object`
 ```
 
 - `found`: `true` if the rule is an ESLint core rule, or a rule of a known plugin, `false` otherwise.
-- `url`: if `found` is `true`, url of the documentation of a rule. If `found` is `false`, url of the [contribution guidelines](https://github.com/jfmengels/eslint-rule-documentation/blob/master/contributing.md).
+- `url`: if `found` is `true`, url of the documentation of a rule. If `found` is `false`, url of the [contribution guidelines](./contributing.md).
 
 ## Thanks
 
