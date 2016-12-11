@@ -15,6 +15,7 @@
   "meteor": "https://github.com/dferber90/eslint-plugin-meteor/blob/master/docs/rules/RULENAME.md",
   "mocha": "https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/RULENAME.md",
   "mongodb": "https://github.com/nfroidure/eslint-plugin-mongodb#RULENAME",
+  "netguru-ember": "https://github.com/netguru/eslint-plugin-netguru-ember/blob/master/docs/RULES.md#RULENAME",
   "promise": "https://github.com/xjamundx/eslint-plugin-promise#RULENAME",
   "protractor": "https://github.com/alecxe/eslint-plugin-protractor/blob/master/docs/rules/RULENAME.md",
   "react": "https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/RULENAME.md",
