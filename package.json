@@ -1,6 +1,6 @@
 {
   "name": "eslint-rule-documentation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Find the url for the documentation of an ESLint rule",
   "license": "MIT",
   "repository": "jfmengels/eslint-rule-documentation",
