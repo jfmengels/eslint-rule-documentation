@@ -2,6 +2,7 @@
   "angular": "https://github.com/Gillespie59/eslint-plugin-angular/blob/master/docs/RULENAME.md",
   "ava": "https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/RULENAME.md",
   "backbone": "https://github.com/ilyavolodin/eslint-plugin-backbone/blob/master/docs/rules/RULENAME.md",
+  "ember": "https://github.com/netguru/eslint-plugin-ember/blob/master/docs/rules/RULENAME.md",
   "flowtype": "https://github.com/gajus/eslint-plugin-flowtype#RULENAME",
   "fp": "https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/RULENAME.md",
   "immutable": "https://github.com/jhusain/eslint-plugin-immutable#RULENAME",
