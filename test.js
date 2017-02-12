@@ -42,7 +42,11 @@ test('should return url of found plugin rules', t => {
       found: true,
       url: 'https://github.com/avajs/eslint-plugin-ava/blob/master/docs/rules/no-todo-test.md'
     });
-
+  t.deepEqual(getRuleURI('eslint-comments/no-unlimited-disable'),
+    {
+      found: true,
+      url: 'https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unlimited-disable.md'
+    });
   t.deepEqual(getRuleURI('promise/no-native'),
     {
       found: true,
