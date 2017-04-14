@@ -18,6 +18,7 @@
   "mocha": "https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/RULENAME.md",
   "mongodb": "https://github.com/nfroidure/eslint-plugin-mongodb#RULENAME",
   "netguru-ember": "https://github.com/netguru/eslint-plugin-netguru-ember/blob/master/docs/RULES.md#RULENAME",
+  "no-use-extend-native": "https://github.com/dustinspecker/eslint-plugin-no-use-extend-native/blob/master/docs/rules/RULENAME.md",
   "node": "https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/RULENAME.md",
   "promise": "https://github.com/xjamundx/eslint-plugin-promise#RULENAME",
   "protractor": "https://github.com/alecxe/eslint-plugin-protractor/blob/master/docs/rules/RULENAME.md",
