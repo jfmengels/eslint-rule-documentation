@@ -6,6 +6,7 @@
   "eslint-comments": "https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/RULENAME.md",
   "flowtype": "https://github.com/gajus/eslint-plugin-flowtype#RULENAME",
   "fp": "https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/RULENAME.md",
+  "github": "https://github.com/github/eslint-plugin-github/blob/master/docs/rules/RULENAME.md",
   "immutable": "https://github.com/jhusain/eslint-plugin-immutable#RULENAME",
   "import": "https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/RULENAME.md",
   "import-order": "https://github.com/jfmengels/eslint-plugin-import-order/blob/master/docs/rules/RULENAME.md",
