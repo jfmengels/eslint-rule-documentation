@@ -29,5 +29,6 @@
   "requirejs": "https://github.com/cvisco/eslint-plugin-requirejs/blob/master/docs/rules/RULENAME.md",
   "standard": "https://github.com/xjamundx/eslint-plugin-standard#rules-explanations",
   "unicorn": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/RULENAME.md",
-  "xo": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/RULENAME.md"
+  "xo": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/RULENAME.md",
+  "visualforce": "https://github.com/forcedotcom/eslint-plugin-visualforce/blob/master/docs/rules/RULENAME.md"
 }
