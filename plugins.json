@@ -30,5 +30,6 @@
   "standard": "https://github.com/xjamundx/eslint-plugin-standard#rules-explanations",
   "unicorn": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/RULENAME.md",
   "xo": "https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/RULENAME.md",
-  "visualforce": "https://github.com/forcedotcom/eslint-plugin-visualforce/blob/master/docs/rules/RULENAME.md"
+  "visualforce": "https://github.com/forcedotcom/eslint-plugin-visualforce/blob/master/docs/rules/RULENAME.md",
+  "vue": "https://github.com/vuejs/eslint-plugin-vue/tree/master/docs/rules/RULENAME.md"
 }
