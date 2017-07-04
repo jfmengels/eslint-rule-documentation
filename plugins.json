@@ -20,6 +20,7 @@
   "mongodb": "https://github.com/nfroidure/eslint-plugin-mongodb#RULENAME",
   "mozilla": "https://gecko.readthedocs.io/en/latest/tools/lint/linters/eslint-plugin-mozilla.html#RULENAME",
   "netguru-ember": "https://github.com/netguru/eslint-plugin-netguru-ember/blob/master/docs/RULES.md#RULENAME",
+  "no-unsanitized": "https://github.com/mozilla/eslint-plugin-no-unsanitized/blob/master/docs/rules/no-unsanitized.md",
   "no-use-extend-native": "https://github.com/dustinspecker/eslint-plugin-no-use-extend-native/blob/master/docs/rules/RULENAME.md",
   "node": "https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/RULENAME.md",
   "promise": "https://github.com/xjamundx/eslint-plugin-promise#RULENAME",
