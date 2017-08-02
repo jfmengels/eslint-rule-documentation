@@ -3,6 +3,10 @@
 var plugins = require('./plugins.json');
 
 function getRuleURI(ruleId) {
+  if (typeof ruleId !== 'string') {
+    throw new TypeError(`ruleId must be a string, got ${typeof ruleId}`);
+  }
+
   var ruleParts = ruleId.split('/');
 
   if (ruleParts.length === 1) {
