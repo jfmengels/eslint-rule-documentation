@@ -81,3 +81,7 @@ test('should return url to help improve this tool', t => {
       url: 'https://github.com/jfmengels/eslint-rule-documentation/blob/master/contributing.md'
     });
 });
+
+test('should throw when ruleId is not a string', t => {
+  t.throws(() => getRuleURI(null), 'ruleId must be a string, got object');
+});
