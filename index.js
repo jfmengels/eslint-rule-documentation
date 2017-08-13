@@ -20,6 +20,13 @@ function getRuleURI(ruleId) {
   var ruleName = ruleParts[1];
   var url = plugins[pluginName];
 
+  if (url.indexOf('/') === -1) {
+    url += '/eslint-plugin-' + pluginName;
+  }
+  if (url.split('/').length === 2) {
+    url = 'https://github.com/' + url + '/blob/master/docs/rules/RULENAME.md';
+  }
+
   if (!url) {
     return {
       found: false,
