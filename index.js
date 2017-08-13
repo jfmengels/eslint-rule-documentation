@@ -2,6 +2,19 @@
 
 var plugins = require('./plugins.json');
 
+for (const pluginName of Object.keys(plugins)) {
+  let url = plugins[pluginName];
+
+  if (url.indexOf('/') === -1) {
+    url += '/eslint-plugin-' + pluginName;
+  }
+  if (url.split('/').length === 2) {
+    url = 'https://github.com/' + url + '/blob/master/docs/rules/RULENAME.md';
+  }
+
+  plugins[pluginName] = url;
+}
+
 function getRuleURI(ruleId) {
   if (typeof ruleId !== 'string') {
     throw new TypeError(`ruleId must be a string, got ${typeof ruleId}`);
@@ -18,14 +31,7 @@ function getRuleURI(ruleId) {
 
   var pluginName = ruleParts[0];
   var ruleName = ruleParts[1];
-  var url = plugins[pluginName];
-
-  if (url.indexOf('/') === -1) {
-    url += '/eslint-plugin-' + pluginName;
-  }
-  if (url.split('/').length === 2) {
-    url = 'https://github.com/' + url + '/blob/master/docs/rules/RULENAME.md';
-  }
+  let url = plugins[pluginName];
 
   if (!url) {
     return {
@@ -39,5 +45,7 @@ function getRuleURI(ruleId) {
     url: url.replace('RULENAME', ruleName)
   };
 }
+
+getRuleURI.plugins = plugins;
 
 module.exports = getRuleURI;
