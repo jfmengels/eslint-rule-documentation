@@ -2,8 +2,8 @@
 
 var plugins = require('./plugins.json');
 
-for (const pluginName of Object.keys(plugins)) {
-  let url = plugins[pluginName];
+for (var pluginName of Object.keys(plugins)) {
+  var url = plugins[pluginName];
 
   if (url.indexOf('/') === -1) {
     url += '/eslint-plugin-' + pluginName;
@@ -31,7 +31,7 @@ function getRuleURI(ruleId) {
 
   var pluginName = ruleParts[0];
   var ruleName = ruleParts[1];
-  let url = plugins[pluginName];
+  var url = plugins[pluginName];
 
   if (!url) {
     return {
