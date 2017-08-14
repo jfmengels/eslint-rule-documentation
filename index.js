@@ -46,6 +46,4 @@ function getRuleURI(ruleId) {
   };
 }
 
-getRuleURI.plugins = plugins;
-
 module.exports = getRuleURI;
