@@ -5,6 +5,7 @@
   "ember": "https://github.com/netguru/eslint-plugin-ember/blob/master/docs/rules/RULENAME.md",
   "es6-recommended": "https://github.com/mgtitimoli/eslint-plugin-es6-recommended#rules",
   "eslint-comments": "https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/RULENAME.md",
+  "eslint-plugin": "https://github.com/not-an-aardvark/eslint-plugin-eslint-plugin/blob/master/docs/rules/RULENAME.md",
   "flowtype": "https://github.com/gajus/eslint-plugin-flowtype#RULENAME",
   "fp": "https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/RULENAME.md",
   "github": "https://github.com/github/eslint-plugin-github/blob/master/docs/rules/RULENAME.md",
