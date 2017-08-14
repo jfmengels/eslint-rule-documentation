@@ -5,7 +5,7 @@ var plugins = require('./plugins.json');
 for (var pluginName of Object.keys(plugins)) {
   var url = plugins[pluginName];
 
-  if (url.indexOf('/') === -1) {
+  if (!url.includes('/')) {
     url += '/eslint-plugin-' + pluginName;
   }
   if (url.split('/').length === 2) {
