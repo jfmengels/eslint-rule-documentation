@@ -2,6 +2,19 @@
 
 var plugins = require('./plugins.json');
 
+for (var pluginName of Object.keys(plugins)) {
+  var url = plugins[pluginName];
+
+  if (!url.includes('/')) {
+    url += '/eslint-plugin-' + pluginName;
+  }
+  if (url.split('/').length === 2) {
+    url = 'https://github.com/' + url + '/blob/master/docs/rules/RULENAME.md';
+  }
+
+  plugins[pluginName] = url;
+}
+
 function getRuleURI(ruleId) {
   if (typeof ruleId !== 'string') {
     throw new TypeError(`ruleId must be a string, got ${typeof ruleId}`);
