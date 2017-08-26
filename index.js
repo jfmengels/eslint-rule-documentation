@@ -25,7 +25,7 @@ function getRuleURI(ruleId) {
   if (ruleParts.length === 1) {
     return {
       found: true,
-      url: 'http://eslint.org/docs/rules/' + ruleId
+      url: 'https://eslint.org/docs/rules/' + ruleId
     };
   }
 

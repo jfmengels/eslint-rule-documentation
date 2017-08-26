@@ -17,7 +17,7 @@ const getRuleURI = require('eslint-rule-documentation');
 
 // find url for core rules
 getRuleURI('no-var');
-// => { found: true, url: 'http://eslint.org/docs/rules/no-var' }
+// => { found: true, url: 'https://eslint.org/docs/rules/no-var' }
 
 // find url for known plugins
 getRuleURI('import/no-unresolved');
@@ -73,5 +73,5 @@ Special thanks to the team behind [linter-eslint] for the original work, and the
 MIT © [Jeroen Engels](https://github.com/jfmengels)
 
 [eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
-[ESLint]: http://eslint.org/
+[ESLint]: https://eslint.org/
 [linter-eslint]: https://github.com/AtomLinter/linter-eslint

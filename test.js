@@ -6,17 +6,17 @@ test('should return url of core rules', t => {
   t.deepEqual(getRuleURI('no-var'),
     {
       found: true,
-      url: 'http://eslint.org/docs/rules/no-var'
+      url: 'https://eslint.org/docs/rules/no-var'
     });
   t.deepEqual(getRuleURI('no-console'),
     {
       found: true,
-      url: 'http://eslint.org/docs/rules/no-console'
+      url: 'https://eslint.org/docs/rules/no-console'
     });
   t.deepEqual(getRuleURI('array-callback-return'),
     {
       found: true,
-      url: 'http://eslint.org/docs/rules/array-callback-return'
+      url: 'https://eslint.org/docs/rules/array-callback-return'
     });
 });
 
