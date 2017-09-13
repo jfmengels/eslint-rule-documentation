@@ -26,6 +26,7 @@
   "no-unsanitized": "mozilla",
   "no-use-extend-native": "dustinspecker",
   "node": "mysticatea",
+  "prettier": "https://github.com/prettier/eslint-plugin-prettier#options",
   "promise": "https://github.com/xjamundx/eslint-plugin-promise#RULENAME",
   "protractor": "alecxe",
   "react": "yannickcr",
