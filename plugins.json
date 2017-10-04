@@ -36,5 +36,6 @@
   "unicorn": "sindresorhus",
   "xo": "sindresorhus/eslint-plugin-unicorn",
   "visualforce": "forcedotcom",
-  "vue": "vuejs"
+  "vue": "vuejs",
+  "jsx-control-statements": "vkbansal"
 }
