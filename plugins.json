@@ -13,7 +13,7 @@
   "import": "benmosher",
   "import-order": "jfmengels",
   "jasmine": "tlvince",
-  "jest": "https://github.com/facebook/jest/blob/master/packages/eslint-plugin-jest/docs/rules/RULENAME.md",
+  "jest": "jest-community",
   "jsdoc": "https://github.com/gajus/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules-RULENAME",
   "jsx-a11y": "evcohen",
   "lodash": "wix",
