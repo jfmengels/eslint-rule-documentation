@@ -47,16 +47,6 @@ test('should return url of found plugin rules', t => {
       found: true,
       url: 'https://github.com/mysticatea/eslint-plugin-eslint-comments/blob/master/docs/rules/no-unlimited-disable.md'
     });
-  t.deepEqual(getRuleURI('promise/no-native'),
-    {
-      found: true,
-      url: 'https://github.com/xjamundx/eslint-plugin-promise#no-native'
-    });
-  t.deepEqual(getRuleURI('promise/catch-or-return'),
-    {
-      found: true,
-      url: 'https://github.com/xjamundx/eslint-plugin-promise#catch-or-return'
-    });
   t.deepEqual(getRuleURI('standard/array-bracket-even-spacing'),
     {
       found: true,
