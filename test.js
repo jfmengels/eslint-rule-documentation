@@ -50,12 +50,12 @@ test('should return url of found plugin rules', t => {
   t.deepEqual(getRuleURI('promise/no-native'),
     {
       found: true,
-      url: 'https://github.com/xjamundx/eslint-plugin-promise#no-native'
+      url: 'https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-native.md'
     });
   t.deepEqual(getRuleURI('promise/catch-or-return'),
     {
       found: true,
-      url: 'https://github.com/xjamundx/eslint-plugin-promise#catch-or-return'
+      url: 'https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md'
     });
   t.deepEqual(getRuleURI('standard/array-bracket-even-spacing'),
     {
