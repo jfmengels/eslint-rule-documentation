@@ -1,4 +1,5 @@
 {
+  "@typescript-eslint": "https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/RULENAME.md",
   "angular": "Gillespie59",
   "ava": "avajs",
   "backbone": "ilyavolodin",

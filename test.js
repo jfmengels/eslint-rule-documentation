@@ -62,6 +62,11 @@ test('should return url of found plugin rules', t => {
       found: true,
       url: 'https://github.com/xjamundx/eslint-plugin-standard#rules-explanations'
     });
+  t.deepEqual(getRuleURI('@typescript-eslint/array-type'),
+    {
+      found: true,
+      url: 'https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md'
+    });
 });
 
 test.cb('should be able to parse `plugin.json`', t => {
