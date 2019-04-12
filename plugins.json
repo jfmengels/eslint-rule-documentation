@@ -33,6 +33,7 @@
   "react-native": "Intellicode",
   "redux-saga": "pke",
   "requirejs": "cvisco",
+  "security": "https://github.com/nodesecurity/eslint-plugin-security#rules",
   "standard": "https://github.com/xjamundx/eslint-plugin-standard#rules-explanations",
   "typescript": "nzakas",
   "unicorn": "sindresorhus",
