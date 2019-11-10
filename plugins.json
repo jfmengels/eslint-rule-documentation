@@ -40,5 +40,6 @@
   "xo": "sindresorhus/eslint-plugin-unicorn",
   "visualforce": "forcedotcom",
   "vue": "vuejs",
-  "jsx-control-statements": "vkbansal"
+  "jsx-control-statements": "vkbansal",
+  "you-dont-need-lodash-underscore": "https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/blob/master/README.md#RULENAME"
 }
