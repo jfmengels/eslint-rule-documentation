@@ -40,5 +40,6 @@
   "xo": "sindresorhus/eslint-plugin-unicorn",
   "visualforce": "forcedotcom",
   "vue": "vuejs",
-  "jsx-control-statements": "vkbansal"
+  "jsx-control-statements": "vkbansal",
+  "react-native-a11y": "FormidableLabs"
 }
