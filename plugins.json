@@ -18,6 +18,7 @@
   "jsx-a11y": "evcohen",
   "lodash": "wix",
   "lodash-fp": "jfmengels",
+  "mediawiki": "wikimedia",
   "meteor": "dferber90",
   "mocha": "lo1tuma",
   "mongodb": "https://github.com/nfroidure/eslint-plugin-mongodb#RULENAME",
