@@ -34,6 +34,7 @@
   "redux-saga": "pke",
   "requirejs": "cvisco",
   "security": "https://github.com/nodesecurity/eslint-plugin-security#rules",
+  "security-node": "gkouziik",
   "standard": "https://github.com/xjamundx/eslint-plugin-standard#rules-explanations",
   "typescript": "nzakas",
   "unicorn": "sindresorhus",
