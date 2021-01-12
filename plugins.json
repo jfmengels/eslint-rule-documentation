@@ -21,7 +21,7 @@
   "meteor": "dferber90",
   "mocha": "lo1tuma",
   "mongodb": "https://github.com/nfroidure/eslint-plugin-mongodb#RULENAME",
-  "mozilla": "https://gecko.readthedocs.io/en/latest/tools/lint/linters/eslint-plugin-mozilla.html#RULENAME",
+  "mozilla": "https://firefox-source-docs.mozilla.org/code-quality/lint/linters/eslint-plugin-mozilla/RULENAME.html",
   "netguru-ember": "https://github.com/netguru/eslint-plugin-netguru-ember/blob/master/docs/RULES.md#RULENAME",
   "no-unsanitized": "mozilla",
   "no-use-extend-native": "dustinspecker",
