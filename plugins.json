@@ -2,6 +2,7 @@
   "angular": "Gillespie59",
   "ava": "avajs",
   "backbone": "ilyavolodin",
+  "effector": "https://github.com/effector/eslint-plugin/blob/master/rules/RULENAME/RULENAME.md"
   "ember": "netguru",
   "es6-recommended": "https://github.com/mgtitimoli/eslint-plugin-es6-recommended#rules",
   "eslint-comments": "mysticatea",
