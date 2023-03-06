@@ -1,7 +1,10 @@
 {
   "angular": "Gillespie59",
   "ava": "avajs",
+  "@babel": "https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin/test/rules/RULENAME.md",
+  "@typescript-eslint": "https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin/docs/rules/RULENAME.md"
   "backbone": "ilyavolodin",
+  "cypress": "cypress-io"
   "ember": "netguru",
   "es6-recommended": "https://github.com/mgtitimoli/eslint-plugin-es6-recommended#rules",
   "eslint-comments": "mysticatea",
