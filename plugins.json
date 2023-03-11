@@ -1,7 +1,6 @@
 {
   "angular": "Gillespie59",
   "ava": "avajs",
-  "@babel": "https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin/test/rules/RULENAME.md",
   "backbone": "ilyavolodin",
   "cypress": "cypress-io",
   "ember": "netguru",
